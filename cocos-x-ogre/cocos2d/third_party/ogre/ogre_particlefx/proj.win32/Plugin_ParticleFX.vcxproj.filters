@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\OgreAreaEmitter.cpp" />
+    <ClCompile Include="..\src\OgreBoxEmitter.cpp" />
+    <ClCompile Include="..\src\OgreColourFaderAffector2.cpp" />
+    <ClCompile Include="..\src\OgreColourFaderAffector.cpp" />
+    <ClCompile Include="..\src\OgreColourImageAffector.cpp" />
+    <ClCompile Include="..\src\OgreColourInterpolatorAffector.cpp" />
+    <ClCompile Include="..\src\OgreCylinderEmitter.cpp" />
+    <ClCompile Include="..\src\OgreDeflectorPlaneAffector.cpp" />
+    <ClCompile Include="..\src\OgreDirectionRandomiserAffector.cpp" />
+    <ClCompile Include="..\src\OgreEllipsoidEmitter.cpp" />
+    <ClCompile Include="..\src\OgreHollowEllipsoidEmitter.cpp" />
+    <ClCompile Include="..\src\OgreLinearForceAffector.cpp" />
+    <ClCompile Include="..\src\OgreParticleFX.cpp" />
+    <ClCompile Include="..\src\OgreParticleFXPlugin.cpp" />
+    <ClCompile Include="..\src\OgrePointEmitter.cpp" />
+    <ClCompile Include="..\src\OgreRingEmitter.cpp" />
+    <ClCompile Include="..\src\OgreRotationAffector.cpp" />
+    <ClCompile Include="..\src\OgreScaleAffector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\OgreAreaEmitter.h" />
+    <ClInclude Include="..\include\OgreBoxEmitterFactory.h" />
+    <ClInclude Include="..\include\OgreBoxEmitter.h" />
+    <ClInclude Include="..\include\OgreColourFaderAffector2.h" />
+    <ClInclude Include="..\include\OgreColourFaderAffectorFactory2.h" />
+    <ClInclude Include="..\include\OgreColourFaderAffectorFactory.h" />
+    <ClInclude Include="..\include\OgreColourFaderAffector.h" />
+    <ClInclude Include="..\include\OgreColourImageAffectorFactory.h" />
+    <ClInclude Include="..\include\OgreColourImageAffector.h" />
+    <ClInclude Include="..\include\OgreColourInterpolatorAffectorFactory.h" />
+    <ClInclude Include="..\include\OgreColourInterpolatorAffector.h" />
+    <ClInclude Include="..\include\OgreCylinderEmitterFactory.h" />
+    <ClInclude Include="..\include\OgreCylinderEmitter.h" />
+    <ClInclude Include="..\include\OgreDeflectorPlaneAffectorFactory.h" />
+    <ClInclude Include="..\include\OgreDeflectorPlaneAffector.h" />
+    <ClInclude Include="..\include\OgreDirectionRandomiserAffectorFactory.h" />
+    <ClInclude Include="..\include\OgreDirectionRandomiserAffector.h" />
+    <ClInclude Include="..\include\OgreEllipsoidEmitterFactory.h" />
+    <ClInclude Include="..\include\OgreEllipsoidEmitter.h" />
+    <ClInclude Include="..\include\OgreHollowEllipsoidEmitterFactory.h" />
+    <ClInclude Include="..\include\OgreHollowEllipsoidEmitter.h" />
+    <ClInclude Include="..\include\OgreLinearForceAffectorFactory.h" />
+    <ClInclude Include="..\include\OgreLinearForceAffector.h" />
+    <ClInclude Include="..\include\OgreParticleFXPlugin.h" />
+    <ClInclude Include="..\include\OgreParticleFXPrerequisites.h" />
+    <ClInclude Include="..\include\OgrePointEmitterFactory.h" />
+    <ClInclude Include="..\include\OgrePointEmitter.h" />
+    <ClInclude Include="..\include\OgreRingEmitterFactory.h" />
+    <ClInclude Include="..\include\OgreRingEmitter.h" />
+    <ClInclude Include="..\include\OgreRotationAffectorFactory.h" />
+    <ClInclude Include="..\include\OgreRotationAffector.h" />
+    <ClInclude Include="..\include\OgreScaleAffectorFactory.h" />
+    <ClInclude Include="..\include\OgreScaleAffector.h" />
+  </ItemGroup>
+</Project>

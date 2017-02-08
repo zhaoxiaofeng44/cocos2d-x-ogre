@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>libencapsulation</ProjectName>
+    <ProjectGuid>{72D86D61-61CA-46EB-8413-91A2CB3D4FDC}</ProjectGuid>
+    <RootNamespace>ParticleUniverse</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <LinkIncremental>true</LinkIncremental>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PreBuildEvent>
+      <Command />
+    </PreBuildEvent>
+    <ClCompile>
+      <AdditionalOptions>/MP -Zm126 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..;..\ogre;..\..\cocos;..\..\cocos\platform;..\..\external\freetype2\include\win32;..\..\cocos\platform\desktop;..\..\external\glfw3\include\win32;..\..\external\win32-specific\gles\include\OGLES;..\..\third_party\ogre\include;..\..\third_party\ogre\ogre_main\include;..\..\third_party\ogre\ogre_pu\include;..\..\third_party\ogre\ogre_particlefx\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_LIB;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <Link>
+      <AdditionalOptions>/fixed:no %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>OgreMain_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.dll</OutputFile>
+      <Version />
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <ModuleDefinitionFile />
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug />
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName)_d.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>..\..\..\lib\$(Configuration)\$(ProjectName)_d.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..;..\ogre;..\..\cocos;..\..\cocos\platform;..\..\external\freetype2\include\win32;..\..\cocos\platform\desktop;..\..\external\glfw3\include\win32;..\..\external\win32-specific\gles\include\OGLES;..\..\third_party\ogre\include;..\..\third_party\ogre\ogre_main\include;..\..\third_party\ogre\ogre_pu\include;..\..\third_party\ogre\ogre_particlefx\include;..\..\third_party\ogre\ogre_rendersystem\include;..\..\third_party\ogre\ogre_rendersystem\include\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>ParticleUniversePCH.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <Version>0.99</Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile />
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>..\..\..\lib\$(Configuration)\$(ProjectName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Lib>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <OutputFile>$(TargetPath)</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\third_party\ogre\ogre_main\proj.win32\OgreMain.vcxproj">
+      <Project>{bb98c28d-5e40-4463-80b3-3bd58e12b5bf}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\third_party\ogre\ogre_particlefx\proj.win32\Plugin_ParticleFX.vcxproj">
+      <Project>{f1733717-7487-4ef3-af91-e96c090138d8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\third_party\ogre\ogre_pu\proj.win32\ParticleUniverse_vc9.vcxproj">
+      <Project>{1c741c2f-3278-43d8-9fd2-e631a64b70ae}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\extension\BonesAnimate3D.cpp" />
+    <ClCompile Include="..\extension\CameraBillBoard.cpp" />
+    <ClCompile Include="..\extension\GroupNode3D.cpp" />
+    <ClCompile Include="..\extension\ScheduleAction.cpp" />
+    <ClCompile Include="..\extension\ScriptCallFuncHelper.cpp" />
+    <ClCompile Include="..\ogre\components\OgreBridgeBufferManager.cpp" />
+    <ClCompile Include="..\ogre\components\OgreBridgeFileSystemArchive.cpp" />
+    <ClCompile Include="..\ogre\components\OgreBridgeGpuProgram.cpp" />
+    <ClCompile Include="..\ogre\components\OgreBridgeGpuProgramManager.cpp" />
+    <ClCompile Include="..\ogre\components\OgreBridgeImageCodec.cpp" />
+    <ClCompile Include="..\ogre\components\OgreBridgeRenderSystem.cpp" />
+    <ClCompile Include="..\ogre\components\OgreBridgeRenderSystemPlugin.cpp" />
+    <ClCompile Include="..\ogre\components\OgreBridgeSceneManager.cpp" />
+    <ClCompile Include="..\ogre\components\OgreBridgeTextureManager.cpp" />
+    <ClCompile Include="..\ogre\components\OgreBridgeWindow.cpp" />
+    <ClCompile Include="..\ogre\OgreNodeProtocol.cpp" />
+    <ClCompile Include="..\ogre\OgreOgreManager.cpp" />
+    <ClCompile Include="..\ogre\OgreOgreSprite3D.cpp" />
+    <ClCompile Include="..\ogre\OgreParticleSprite3D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\extension\BonesAnimate3D.h" />
+    <ClInclude Include="..\extension\CameraBillBoard.h" />
+    <ClInclude Include="..\extension\GroupNode3D.h" />
+    <ClInclude Include="..\extension\ScheduleAction.h" />
+    <ClInclude Include="..\extension\ScriptCallFuncHelper.h" />
+    <ClInclude Include="..\ogre\components\OgreBridgeBufferManager.h" />
+    <ClInclude Include="..\ogre\components\OgreBridgeFileSystemArchive.h" />
+    <ClInclude Include="..\ogre\components\OgreBridgeGpuProgram.h" />
+    <ClInclude Include="..\ogre\components\OgreBridgeGpuProgramManager.h" />
+    <ClInclude Include="..\ogre\components\OgreBridgeImageCodec.h" />
+    <ClInclude Include="..\ogre\components\OgreBridgeRenderSystem.h" />
+    <ClInclude Include="..\ogre\components\OgreBridgeRenderSystemPlugin.h" />
+    <ClInclude Include="..\ogre\components\OgreBridgeSceneManager.h" />
+    <ClInclude Include="..\ogre\components\OgreBridgeTextureManager.h" />
+    <ClInclude Include="..\ogre\components\OgreBridgeWindow.h" />
+    <ClInclude Include="..\ogre\OgreNodeProtocol.h" />
+    <ClInclude Include="..\ogre\OgreOgreManager.h" />
+    <ClInclude Include="..\ogre\OgreOgreSprite3D.h" />
+    <ClInclude Include="..\ogre\OgreParticleSprite3D.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

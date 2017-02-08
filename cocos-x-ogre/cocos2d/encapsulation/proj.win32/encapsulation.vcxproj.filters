@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ogre">
+      <UniqueIdentifier>{7e526aa3-7514-4ef4-9198-2eee39a84b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ogre\components">
+      <UniqueIdentifier>{6b773c29-2a10-47c6-b822-78ed3edf023f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extension">
+      <UniqueIdentifier>{3e119582-db87-4305-9343-5fb360e21970}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ogre\OgreNodeProtocol.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\OgreOgreManager.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\OgreOgreSprite3D.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\OgreParticleSprite3D.cpp">
+      <Filter>ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\components\OgreBridgeFileSystemArchive.cpp">
+      <Filter>ogre\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\components\OgreBridgeImageCodec.cpp">
+      <Filter>ogre\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\components\OgreBridgeSceneManager.cpp">
+      <Filter>ogre\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extension\CameraBillBoard.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\components\OgreBridgeBufferManager.cpp">
+      <Filter>ogre\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\components\OgreBridgeTextureManager.cpp">
+      <Filter>ogre\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extension\ScriptCallFuncHelper.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extension\BonesAnimate3D.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extension\GroupNode3D.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\components\OgreBridgeGpuProgram.cpp">
+      <Filter>ogre\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\components\OgreBridgeGpuProgramManager.cpp">
+      <Filter>ogre\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\components\OgreBridgeRenderSystem.cpp">
+      <Filter>ogre\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\components\OgreBridgeRenderSystemPlugin.cpp">
+      <Filter>ogre\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ogre\components\OgreBridgeWindow.cpp">
+      <Filter>ogre\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extension\ScheduleAction.cpp">
+      <Filter>extension</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ogre\OgreNodeProtocol.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\OgreOgreManager.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\OgreOgreSprite3D.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\OgreParticleSprite3D.h">
+      <Filter>ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\components\OgreBridgeFileSystemArchive.h">
+      <Filter>ogre\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\components\OgreBridgeImageCodec.h">
+      <Filter>ogre\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\components\OgreBridgeSceneManager.h">
+      <Filter>ogre\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extension\CameraBillBoard.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\components\OgreBridgeBufferManager.h">
+      <Filter>ogre\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\components\OgreBridgeTextureManager.h">
+      <Filter>ogre\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extension\ScriptCallFuncHelper.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extension\BonesAnimate3D.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extension\GroupNode3D.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\components\OgreBridgeGpuProgram.h">
+      <Filter>ogre\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\components\OgreBridgeGpuProgramManager.h">
+      <Filter>ogre\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\components\OgreBridgeRenderSystem.h">
+      <Filter>ogre\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\components\OgreBridgeRenderSystemPlugin.h">
+      <Filter>ogre\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ogre\components\OgreBridgeWindow.h">
+      <Filter>ogre\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extension\ScheduleAction.h">
+      <Filter>extension</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

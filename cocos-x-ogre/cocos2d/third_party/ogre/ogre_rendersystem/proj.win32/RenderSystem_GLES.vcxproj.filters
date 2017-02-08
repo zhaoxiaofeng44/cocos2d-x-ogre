@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\Common\OgreCommonGLContext.cpp" />
+    <ClCompile Include="..\src\Common\OgreCommonGLSupport.cpp" />
+    <ClCompile Include="..\src\Common\OgreCommonWindow.cpp" />
+    <ClCompile Include="..\src\OgreGLES2Context.cpp" />
+    <ClCompile Include="..\src\OgreGLES2DefaultHardwareBufferManager.cpp" />
+    <ClCompile Include="..\src\OgreGLES2DepthBuffer.cpp" />
+    <ClCompile Include="..\src\OgreGLES2EngineDll.cpp" />
+    <ClCompile Include="..\src\OgreGLES2FBOMultiRenderTarget.cpp" />
+    <ClCompile Include="..\src\OgreGLES2FBORenderTexture.cpp" />
+    <ClCompile Include="..\src\OgreGLES2FrameBufferObject.cpp" />
+    <ClCompile Include="..\src\OgreGLES2GpuProgram.cpp" />
+    <ClCompile Include="..\src\OgreGLES2GpuProgramManager.cpp" />
+    <ClCompile Include="..\src\OgreGLES2HardwareBufferManager.cpp" />
+    <ClCompile Include="..\src\OgreGLES2HardwareIndexBuffer.cpp" />
+    <ClCompile Include="..\src\OgreGLES2HardwareOcclusionQuery.cpp" />
+    <ClCompile Include="..\src\OgreGLES2HardwarePixelBuffer.cpp" />
+    <ClCompile Include="..\src\OgreGLES2HardwareVertexBuffer.cpp" />
+    <ClCompile Include="..\src\OgreGLES2PixelFormat.cpp" />
+    <ClCompile Include="..\src\OgreGLES2Plugin.cpp" />
+    <ClCompile Include="..\src\OgreGLES2RenderSystem.cpp" />
+    <ClCompile Include="..\src\OgreGLES2RenderTexture.cpp" />
+    <ClCompile Include="..\src\OgreGLES2Support.cpp" />
+    <ClCompile Include="..\src\OgreGLES2Texture.cpp" />
+    <ClCompile Include="..\src\OgreGLES2TextureManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Common\OgreCommonGLContext.h" />
+    <ClInclude Include="..\include\Common\OgreCommonGLSupport.h" />
+    <ClInclude Include="..\include\Common\OgreCommonWindow.h" />
+    <ClInclude Include="..\include\Common\OgreGLES2Util.h" />
+    <ClInclude Include="..\include\OgreGLES2Context.h" />
+    <ClInclude Include="..\include\OgreGLES2DefaultHardwareBufferManager.h" />
+    <ClInclude Include="..\include\OgreGLES2DepthBuffer.h" />
+    <ClInclude Include="..\include\OgreGLES2FBOMultiRenderTarget.h" />
+    <ClInclude Include="..\include\OgreGLES2FBORenderTexture.h" />
+    <ClInclude Include="..\include\OgreGLES2FrameBufferObject.h" />
+    <ClInclude Include="..\include\OgreGLES2GpuProgram.h" />
+    <ClInclude Include="..\include\OgreGLES2GpuProgramManager.h" />
+    <ClInclude Include="..\include\OgreGLES2HardwareBufferManager.h" />
+    <ClInclude Include="..\include\OgreGLES2HardwareIndexBuffer.h" />
+    <ClInclude Include="..\include\OgreGLES2HardwareOcclusionQuery.h" />
+    <ClInclude Include="..\include\OgreGLES2HardwarePixelBuffer.h" />
+    <ClInclude Include="..\include\OgreGLES2HardwareVertexBuffer.h" />
+    <ClInclude Include="..\include\OgreGLES2InternalShaders.h" />
+    <ClInclude Include="..\include\OgreGLES2PixelFormat.h" />
+    <ClInclude Include="..\include\OgreGLES2Plugin.h" />
+    <ClInclude Include="..\include\OgreGLES2Prerequisites.h" />
+    <ClInclude Include="..\include\OgreGLES2RenderSystem.h" />
+    <ClInclude Include="..\include\OgreGLES2RenderTexture.h" />
+    <ClInclude Include="..\include\OgreGLES2Support.h" />
+    <ClInclude Include="..\include\OgreGLES2Texture.h" />
+    <ClInclude Include="..\include\OgreGLES2TextureManager.h" />
+  </ItemGroup>
+</Project>

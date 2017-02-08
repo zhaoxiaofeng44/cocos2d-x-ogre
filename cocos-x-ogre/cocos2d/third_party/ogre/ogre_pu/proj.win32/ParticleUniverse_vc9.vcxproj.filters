@@ -1,0 +1,1495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a9d9f749-6be3-4b85-b64d-f4d61648f60a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ParticleEmitters">
+      <UniqueIdentifier>{ed8f153c-2114-4b0f-a2bd-1a26d249b0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleRenderers">
+      <UniqueIdentifier>{e309087e-320c-4ebf-acd5-0d2b806e52ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleAffectors">
+      <UniqueIdentifier>{6967c4c9-7132-4b64-a6f7-9161a4bbfad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleObservers">
+      <UniqueIdentifier>{97ce16d3-1217-4c80-b120-27c9320e9c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleEventHandlers">
+      <UniqueIdentifier>{145335a6-b9ad-4ad9-b00f-dd332d65f39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Externs">
+      <UniqueIdentifier>{1eea3c60-82ac-4f9a-b174-aef6ba79a591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParticleBehaviours">
+      <UniqueIdentifier>{6bb8b4b4-7502-4fc8-a3d0-b9828c56a8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9b6dd577-083c-4940-9f5a-806be047ad7f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ParticleEmitters">
+      <UniqueIdentifier>{37b9c512-78cc-466e-b997-4f6fe78a4c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParticleRenderers">
+      <UniqueIdentifier>{3484a3df-45b9-448d-bb05-8e1a06e4ad9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParticleAffectors">
+      <UniqueIdentifier>{945c85e6-ab48-4720-bce2-429707203d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParticleEventHandlers">
+      <UniqueIdentifier>{db420de0-cfc2-4308-9a81-383bc33aca41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParticleObservers">
+      <UniqueIdentifier>{8c42dac7-791d-46c6-a616-019198ffb463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParticleBehaviours">
+      <UniqueIdentifier>{dc930a68-3e69-4f48-94a4-4c750963c4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Externs">
+      <UniqueIdentifier>{b2ba303a-7e45-4c98-8ef9-703546210141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="txt">
+      <UniqueIdentifier>{7de47695-c748-49a8-b4be-3a2f7956d22e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ParticleUniverseAffector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseAffectorTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseAliasTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseAtlasImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseAttachable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseAttachableTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseBehaviourTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseCameraDependency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseCameraDependencyTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseDynamicAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseDynamicAttributeTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseEmitterTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseEventHandlerTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseExtern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseExternTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseForceField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseNoise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseObserverTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseParticle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseParticlePool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniversePCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniversePlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseRendererTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseScriptDeserializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseScriptSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseSystemManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseSystemManagerTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseSystemTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseTechnique.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseTechniqueTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleUniverseVisualParticle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseBoxEmitter.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseBoxEmitterTokens.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseCircleEmitter.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseCircleEmitterTokens.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseLineEmitter.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseLineEmitterTokens.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseMeshSurfaceEmitter.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseMeshSurfaceEmitterTokens.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniversePointEmitter.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniversePointEmitterTokens.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniversePositionEmitter.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniversePositionEmitterTokens.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseSlaveEmitter.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseSlaveEmitterTokens.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseSphereSurfaceEmitter.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseSphereSurfaceEmitterTokens.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseVertexEmitter.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEmitters\ParticleUniverseVertexEmitterTokens.cpp">
+      <Filter>Source Files\ParticleEmitters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseBeamRenderer.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseBeamRendererTokens.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseBillboardRenderer.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseBillboardRendererTokens.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseBox.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseBoxRenderer.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseBoxRendererTokens.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseBoxSet.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseEntityRenderer.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseEntityRendererTokens.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseLightRenderer.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseLightRendererTokens.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniversePrimitiveShapeSet.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseRibbonTrailRenderer.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseRibbonTrailRendererTokens.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseSphere.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseSphereRenderer.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseSphereRendererTokens.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleRenderers\ParticleUniverseSphereSet.cpp">
+      <Filter>Source Files\ParticleRenderers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseAlignAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseAlignAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseBaseCollider.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseBaseColliderTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseBaseForceAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseBaseForceAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseBoxCollider.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseBoxColliderTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseCollisionAvoidanceAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseCollisionAvoidanceAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseColourAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseColourAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseFlockCenteringAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseFlockCenteringAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseForceFieldAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseForceFieldAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseGeometryRotator.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseGeometryRotatorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseGravityAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseGravityAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseInterParticleCollider.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseInterParticleColliderTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseJetAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseJetAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseLineAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseLineAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseLinearForceAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseLinearForceAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseParticleFollower.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseParticleFollowerTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniversePathFollower.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniversePathFollowerTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniversePlaneCollider.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniversePlaneColliderTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseRandomiser.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseRandomiserTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseScaleAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseScaleAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseScaleVelocityAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseScaleVelocityAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseSineForceAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseSineForceAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseSphereCollider.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseSphereColliderTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseTextureAnimator.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseTextureAnimatorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseTextureRotator.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseTextureRotatorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseVelocityMatchingAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseVelocityMatchingAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseVortexAffector.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleAffectors\ParticleUniverseVortexAffectorTokens.cpp">
+      <Filter>Source Files\ParticleAffectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnClearObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnClearObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnCollisionObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnCollisionObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnCountObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnCountObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnEmissionObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnEmissionObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnEventFlagObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnEventFlagObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnExpireObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnExpireObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnPositionObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnPositionObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnQuotaObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnQuotaObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnRandomObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnRandomObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnTimeObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnTimeObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnVelocityObserver.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleObservers\ParticleUniverseOnVelocityObserverTokens.cpp">
+      <Filter>Source Files\ParticleObservers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoAffectorEventHandler.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoAffectorEventHandlerTokens.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoEnableComponentEventHandler.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoEnableComponentEventHandlerTokens.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoExpireEventHandler.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoExpireEventHandlerTokens.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoFreezeEventHandler.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoFreezeEventHandlerTokens.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoPlacementParticleEventHandler.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoPlacementParticleEventHandlerTokens.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoScaleEventHandler.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoScaleEventHandlerTokens.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoStopSystemEventHandler.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleEventHandlers\ParticleUniverseDoStopSystemEventHandlerTokens.cpp">
+      <Filter>Source Files\ParticleEventHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniverseBoxColliderExtern.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniverseBoxColliderExternTokens.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniverseGravityExtern.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniverseGravityExternTokens.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniversePhysXActorExtern.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniversePhysXActorExternTokens.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniversePhysXBridge.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniversePhysXFluidExtern.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniversePhysXFluidExternTokens.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniverseSceneDecoratorExtern.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniverseSceneDecoratorExternTokens.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniverseSphereColliderExtern.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniverseSphereColliderExternTokens.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniverseVortexExtern.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Externs\ParticleUniverseVortexExternTokens.cpp">
+      <Filter>Source Files\Externs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleBehaviours\ParticleUniverseSlaveBehaviour.cpp">
+      <Filter>Source Files\ParticleBehaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParticleBehaviours\ParticleUniverseSlaveBehaviourTokens.cpp">
+      <Filter>Source Files\ParticleBehaviours</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ParticleUniverseAffector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseAffectorFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseAffectorTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseAliasTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseAny.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseAtlasImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseAttachable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseAttachableTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseAxisAlignedBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseBehaviour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseBehaviourFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseBehaviourTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseCameraDependency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseCameraDependencyFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseCameraDependencyTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseConfigFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseControllerManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseDynamicAttribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseDynamicAttributeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseDynamicAttributeTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseEmitterFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseEmitterTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseEventHandlerFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseEventHandlerTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseExtern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseExternFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseExternTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseForceField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseIAlias.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseIDependency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseIElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseIVisualData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseLogManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseNoise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseObserverFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseObserverTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseParticle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseParticlePool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniversePCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniversePhysicsActor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniversePhysicsExtern.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniversePhysicsShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniversePlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniversePlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniversePool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniversePoolMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniversePrerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseRadixSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseRendererFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseRendererTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseScriptCompiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseScriptDeserializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseScriptReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseScriptSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseScriptWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseSection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseSimpleSphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseSimpleSpline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseSpatialHashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseSystemListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseSystemManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseSystemManagerTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseSystemTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseTechnique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseTechniqueListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseTechniqueTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleUniverseVisualParticle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseBoxEmitter.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseBoxEmitterFactory.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseBoxEmitterTokens.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseCircleEmitter.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseCircleEmitterFactory.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseCircleEmitterTokens.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseLineEmitter.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseLineEmitterFactory.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseLineEmitterTokens.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseMeshSurfaceEmitter.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseMeshSurfaceEmitterFactory.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseMeshSurfaceEmitterTokens.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniversePointEmitter.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniversePointEmitterFactory.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniversePointEmitterTokens.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniversePositionEmitter.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniversePositionEmitterFactory.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniversePositionEmitterTokens.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseSlaveEmitter.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseSlaveEmitterFactory.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseSlaveEmitterTokens.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseSphereSurfaceEmitter.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseSphereSurfaceEmitterFactory.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseSphereSurfaceEmitterTokens.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseVertexEmitter.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseVertexEmitterFactory.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEmitters\ParticleUniverseVertexEmitterTokens.h">
+      <Filter>Header Files\ParticleEmitters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBeamRenderer.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBeamRendererFactory.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBeamRendererTokens.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBillboard.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBillboardRenderer.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBillboardRendererFactory.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBillboardRendererTokens.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBox.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBoxRenderer.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBoxRendererFactory.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBoxRendererTokens.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseBoxSet.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseEntityRenderer.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseEntityRendererFactory.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseEntityRendererTokens.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseLightRenderer.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseLightRendererFactory.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseLightRendererTokens.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniversePrimitiveShapeSet.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseRibbonTrailRenderer.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseRibbonTrailRendererFactory.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseRibbonTrailRendererTokens.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseSphere.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseSphereRenderer.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseSphereRendererFactory.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseSphereRendererTokens.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleRenderers\ParticleUniverseSphereSet.h">
+      <Filter>Header Files\ParticleRenderers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseAlignAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseAlignAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseAlignAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseBaseCollider.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseBaseColliderFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseBaseColliderTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseBaseForceAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseBaseForceAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseBaseForceAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseBoxCollider.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseBoxColliderFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseBoxColliderTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseCollisionAvoidanceAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseCollisionAvoidanceAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseCollisionAvoidanceAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseColourAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseColourAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseColourAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseFlockCenteringAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseFlockCenteringAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseFlockCenteringAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseForceFieldAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseForceFieldAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseForceFieldAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseGeometryRotator.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseGeometryRotatorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseGeometryRotatorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseGravityAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseGravityAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseGravityAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseInterParticleCollider.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseInterParticleColliderFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseInterParticleColliderTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseJetAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseJetAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseJetAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseLineAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseLineAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseLineAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseLinearForceAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseLinearForceAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseLinearForceAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseParticleFollower.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseParticleFollowerFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseParticleFollowerTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniversePathFollower.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniversePathFollowerFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniversePathFollowerTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniversePlaneCollider.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniversePlaneColliderFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniversePlaneColliderTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseRandomiser.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseRandomiserFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseRandomiserTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseScaleAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseScaleAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseScaleAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseScaleVelocityAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseScaleVelocityAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseScaleVelocityAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseSineForceAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseSineForceAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseSineForceAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseSphereCollider.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseSphereColliderFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseSphereColliderTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseTextureAnimator.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseTextureAnimatorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseTextureAnimatorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseTextureRotator.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseTextureRotatorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseTextureRotatorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseVelocityMatchingAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseVelocityMatchingAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseVelocityMatchingAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseVortexAffector.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseVortexAffectorFactory.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleAffectors\ParticleUniverseVortexAffectorTokens.h">
+      <Filter>Header Files\ParticleAffectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoAffectorEventHandler.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoAffectorEventHandlerFactory.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoAffectorEventHandlerTokens.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoEnableComponentEventHandler.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoEnableComponentEventHandlerFactory.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoEnableComponentEventHandlerTokens.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoExpireEventHandler.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoExpireEventHandlerFactory.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoExpireEventHandlerTokens.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoFreezeEventHandler.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoFreezeEventHandlerFactory.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoFreezeEventHandlerTokens.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoPlacementParticleEventHandler.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoPlacementParticleEventHandlerFactory.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoPlacementParticleEventHandlerTokens.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoScaleEventHandler.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoScaleEventHandlerFactory.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoScaleEventHandlerTokens.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoStopSystemEventHandler.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoStopSystemEventHandlerFactory.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleEventHandlers\ParticleUniverseDoStopSystemEventHandlerTokens.h">
+      <Filter>Header Files\ParticleEventHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnClearObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnClearObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnClearObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnCollisionObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnCollisionObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnCollisionObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnCountObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnCountObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnCountObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnEmissionObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnEmissionObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnEmissionObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnEventFlagObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnEventFlagObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnEventFlagObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnExpireObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnExpireObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnExpireObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnPositionObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnPositionObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnPositionObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnQuotaObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnQuotaObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnQuotaObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnRandomObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnRandomObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnRandomObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnTimeObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnTimeObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnTimeObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnVelocityObserver.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnVelocityObserverFactory.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleObservers\ParticleUniverseOnVelocityObserverTokens.h">
+      <Filter>Header Files\ParticleObservers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleBehaviours\ParticleUniverseSlaveBehaviour.h">
+      <Filter>Header Files\ParticleBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleBehaviours\ParticleUniverseSlaveBehaviourFactory.h">
+      <Filter>Header Files\ParticleBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParticleBehaviours\ParticleUniverseSlaveBehaviourTokens.h">
+      <Filter>Header Files\ParticleBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseBoxColliderExtern.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseBoxColliderExternFactory.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseBoxColliderExternTokens.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseGravityExtern.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseGravityExternFactory.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseGravityExternTokens.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniversePhysXActorExtern.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniversePhysXActorExternFactory.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniversePhysXActorExternTokens.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniversePhysXBridge.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniversePhysXExtern.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniversePhysXFluidExtern.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniversePhysXFluidExternFactory.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniversePhysXFluidExternTokens.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniversePhysXLogging.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniversePhysxMath.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseSceneDecoratorExtern.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseSceneDecoratorExternFactory.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseSceneDecoratorExternTokens.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseSphereColliderExtern.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseSphereColliderExternFactory.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseSphereColliderExternTokens.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseVortexExtern.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseVortexExternFactory.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Externs\ParticleUniverseVortexExternTokens.h">
+      <Filter>Header Files\Externs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Docs\Bugs.txt">
+      <Filter>txt</Filter>
+    </Text>
+    <Text Include="..\Docs\Changelog.txt">
+      <Filter>txt</Filter>
+    </Text>
+    <Text Include="..\docs\Porting.txt">
+      <Filter>txt</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
